@@ -18,7 +18,6 @@ function AppRoutes({ isLoggedIn }) {
       <Route path="/login" element={<Login />} />
       <Route path="/posts" element={<Posts />} />
       <Route path="/inputs" element={<Inputs />} />
-
       <Route path="*" element={<Error />} />
     </Routes>
   );
